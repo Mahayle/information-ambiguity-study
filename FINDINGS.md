@@ -70,33 +70,30 @@ This pilot does not establish that uncertainty-aware prompting generally reduces
 
 ## Repository guide
 
-```The repository is organized as follows:
+```
+
+The repository contains the following materials:
 
 information-ambiguity-study/
 │
 ├── README.md
 ├── FINDINGS.md
 ├── analysis.py
+├── execution_protocol.md
 │
-├── protocol/
-│   └── execution_protocol.md
+├── scenario-1-expense-reimbursement.md
+├── scenario-2-meeting-coordination.md
+├── scenario-3-hiring-recruitment.md
+├── scenario-4-communications.md
+├── scenario-5-project-handoff.md
 │
-├── scenarios/
-│   ├── scenario-1-expense-reimbursement.md
-│   ├── scenario-2-meeting-coordination.md
-│   ├── scenario-3-hiring-recruitment.md
-│   ├── scenario-4-communications.md
-│   └── scenario-5-project-handoff.md
+├── scoring_rubric.md
+├── hedge_word_list.md
+├── scoring_schema_notes.md
+├── scored_trials.md
 │
-├── scoring/
-│   ├── scoring_rubric.md
-│   ├── hedge_word_list.md
-│   ├── scoring_schema_notes.md
-│   └── scored_trials.md
-│
-└── data/
-    ├── raw_trial_outputs.md
-    └── results_summary.md
+├── raw_trial_outputs.md
+└── results_summary.md
 ```
 
 Reproducibility note: every prompt sent to every trial is reconstructable exactly from the scenario files and `protocol/execution_protocol.md`'s template. Nothing in a trial prompt exists only in this write-up.
