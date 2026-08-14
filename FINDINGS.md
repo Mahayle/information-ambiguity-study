@@ -70,8 +70,6 @@ This pilot does not establish that uncertainty-aware prompting generally reduces
 
 ## Repository guide
 
-## Repository guide
-
 ```The repository is organized as follows:
 
 information-ambiguity-study/
