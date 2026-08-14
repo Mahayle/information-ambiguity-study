@@ -8,9 +8,7 @@ A 30-trial pilot examining whether explicitly instructing a model not to guess a
 ## What's in this repository
 
 ## Repository guide
-
-The repository contains the following materials:
-
+```text
 information-ambiguity-study/
 │
 ├── README.md
@@ -31,6 +29,7 @@ information-ambiguity-study/
 │
 ├── raw_trial_outputs.md
 └── results_summary.md
+```
 
 
 ## Why there's barely any code
