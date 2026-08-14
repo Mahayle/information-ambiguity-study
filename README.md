@@ -4,21 +4,33 @@ A 30-trial pilot examining whether explicitly instructing a model not to guess a
 
 **Start here: [FINDINGS.md](FINDINGS.md)**, the full write-up: research question, design, method, results, conclusion, and limitations.
 
-This is Project 2, a companion to [Project 1](../instruction-strength-study/README.md) (instruction strength and behavioural conflict under competing instructions). I deliberately didn't merge the two: they test different mechanisms. But both take the same approach: turn a messy systems question into something measurable, control the variables, run trials, inspect failures, and revise the methodology before locking it.
 
 ## What's in this repository
-Information Ambiguity Study
-   ├── README
-   ├── FINDINGS
-   ├── analysis
-   ├── Scenario 1
-   ├── Scenario 2
-   ├── Scenario 3
-   ├── Scenario 4
-   ├── Scenario 5
-   ├── Scoring Rubric
-   ├── Scored Trials
-   └── ...
+
+## Repository guide
+
+The repository contains the following materials:
+
+information-ambiguity-study/
+│
+├── README.md
+├── FINDINGS.md
+├── analysis.py
+├── execution_protocol.md
+│
+├── scenario-1-expense-reimbursement.md
+├── scenario-2-meeting-coordination.md
+├── scenario-3-hiring-recruitment.md
+├── scenario-4-communications.md
+├── scenario-5-project-handoff.md
+│
+├── scoring_rubric.md
+├── hedge_word_list.md
+├── scoring_schema_notes.md
+├── scored_trials.md
+│
+├── raw_trial_outputs.md
+└── results_summary.md
 
 
 ## Why there's barely any code
